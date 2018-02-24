@@ -70,15 +70,6 @@
 </body>
 </html>
 <script>
-$(function(){	
-orientationchange();
-// Listen for orientation changes
-window.addEventListener("orientationchange", function() {
-	// Announce the new orientation number
-	alert(screen.orientation);
-}, false);
-
-});
  var $row=$("#rowcount");
  function addrow(x)
 	 {   
